@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'YOUR_GITHUB_REPOSITORY_URL'
+                git 'https://github.com/shruti-1234-patel/CI-CD-SBSMA.git'
             }
         }
 
